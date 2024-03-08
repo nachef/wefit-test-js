@@ -1,4 +1,4 @@
-//conteúdo do header
+//HEADER
 const headerContent = document.querySelector(".jumbotron");
 const headerTextElements = document.querySelectorAll(
   ".jumbotron h1, .jumbotron p, .jumbotron a"
@@ -20,7 +20,7 @@ headerTextElements.forEach((element) => {
   element.style.color = "#ffffff";
 });
 
-//conteúdo do menu
+//MENU
 const btnGroup = document.querySelector(".btn-group-vertical");
 
 btnGroup.classList.remove("btn-group-vertical");
@@ -38,7 +38,7 @@ btns.forEach((btn) => {
   btn.style.marginRight = "10px";
 });
 
-//conteúdo da lista
+//LISTA
 const list = document.querySelector(".list-group");
 const quartoItem = document.createElement("li");
 
@@ -59,7 +59,7 @@ list.appendChild(quintoItem);
 const primeiroItem = document.querySelector(".list-group-item:first-child");
 primeiroItem.classList.remove("active");
 
-//conteúdo dos cards
+//CARDS
 const newOrder = ["Natureza", "Animais", "Pessoas", "Tecnologia"];
 const cardContainers = document.querySelectorAll(".col-lg-3");
 
